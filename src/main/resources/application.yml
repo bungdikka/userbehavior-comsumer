@@ -1,0 +1,14 @@
+server:
+  port: 8083
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+  datasource:    url: jdbc:mysql://localhost:3306/tiger_fastened_shut?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    
+  redis:    host: 127.0.0.1
+    port: 6379
